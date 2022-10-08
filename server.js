@@ -33,7 +33,7 @@ const pokemonSchema = new mongoose.Schema({
     Speed: Number,
   },
 });
-var pokemonModel = mongoose.model("Pokemon", pokemonSchema);
+var pokemonModel = mongoose.model("Pokemons", pokemonSchema);
 // "mongodb+srv://dinhplnguyen:OyOojZtCfxxuhbHN@cluster0.jk2imwg.mongodb.net/?retryWrites=true&w=majority"
 // mongodb://localhost:27017/test
 // =================== Step 2: Fetch JSON from github ===================
